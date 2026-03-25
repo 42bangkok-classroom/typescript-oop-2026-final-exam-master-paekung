@@ -10,6 +10,6 @@ export class AppController {
   @Get()
   getHello(): ApiResponse<res> {
     const data = this.appService.getHello();
-    return { success: true, data , message: 'Hello NestJS'};
+    return { success: true, data, message: 'Hello NestJS' };
   }
 }

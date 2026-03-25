@@ -1,4 +1,4 @@
 export interface res {
-    service: string
-    version: string
-  }
+  service: string;
+  version: string;
+}

@@ -5,8 +5,8 @@ import { res } from './interfaces/res.interface';
 export class AppService {
   getHello(): res {
     return {
-      "service": "purchase-api",
-      "version": "1.0.0"
+      service: 'purchase-api',
+      version: '1.0.0',
     };
   }
 }
